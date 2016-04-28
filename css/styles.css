@@ -6,3 +6,16 @@
 .transportation {
 	background-color: #778899;
 }
+
+p, img{
+	display:none;
+}
+
+@media(min-width:768px){
+	p{
+		display: inline-block;
+	}
+	img{
+		display: inline-block;
+	}
+}
